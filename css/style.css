@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: #09c;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    float: left;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover{
+    background-color: #fff;
+    border-radius: 15px;
+    color: #09c;
+    border: 1px solid #09c;
+}
+
+li a:active{
+    background-color: rebeccapurple;
+}
